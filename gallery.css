@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    width:70px; 
+    height:70px;
+    border-radius: 70px;
+
+}
+
+/* .img1 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 4px 4px 5px 5px #110f0f;
+    position: relative;
+    animation: example 3s 3;
+}
+
+.img2 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 4px 4px 5px 5px #110f0f;
+    position: relative;
+    animation:rightmove 3s 3;
+}
+.img3 {
+    width: 200px;
+    height: 180px;
+    box-shadow: 4px 4px 5px 5px #110f0f;
+    position: relative;
+    animation:topmove 3s 3;
+    top: 30px;
+}
+.img4 {
+    width: 200px;
+    height: 180px;
+    box-shadow: 4px 4px 5px 5px #110f0f;
+    position: relative;
+    animation:bottommove 3s 3;
+    top: 30px;
+} */
+.items1{
+    width:500px;
+    height:300px;
+    padding-left:20px;
+    border-radius: 300px;
+    box-shadow: 4px 4px 5px 5px #110f0f;
+}
+
+.footerimg {
+    width: 200px;
+    height: 200px;
+    border-radius: 210px;
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 3px 3px #f1eeee;
+}
+
+.footerp {
+    color: white;
+    font-family: cursive;
+}
+
+.icon {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.container{
+  
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 10px;
+    grid-template-areas: 
+    "h1 h1 h1 "
+    "s1 s2 s3 "
+    "k1 s2 k3 "
+    "l3 l3 l3 ";
+}
+
+.img{
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  
+    
+  }
+
+.img1{
+    width: 620px;
+    height: 200px;
+}
+
+.img2{
+    width: 200px;
+    height: 200px;
+}
+
+.img3{
+    width: 200px;
+    height: 200px;
+}
+
+.img41{
+    width: 620px;
+    height: 200px;
+}
+
+.img31{
+    width: 200px;
+    height: 410px;
+}
+.img22{
+    width: 200px;
+    height: 202px;
+}
+
+.a1{
+    grid-area: h1;
+    background-color:rgb(88, 88, 118);
+
+}
+.a2{
+    grid-area: h1;
+    background-color: rgb(88, 88, 118);;
+}
+.a3{
+    grid-area: h1;
+    background-color: rgb(88, 88, 118);
+}
+.a4{
+    grid-area: s1;
+    background-color: rgb(124, 53, 109);
+}
+.a5{
+    grid-area: s2;
+    background-color: rgb(88, 88, 118);
+}
+.a6{
+    grid-area: s3;
+    background-color: rgb(124, 53, 109);
+}
+.a7{
+    grid-area: k1;
+    background-color: rgb(132, 137, 43);
+}
+.a8{
+    grid-area: s2;
+    background-color: rgb(42, 94, 63);
+}
+.a9{
+    grid-area: k3;
+    background-color:  rgb(132, 137, 43);
+}
+.a10{
+    grid-area: l1;
+    background-color: rgb(88, 88, 118);
+}
+.a11{
+    grid-area: l2;
+    background-color: rgb(88, 88, 118);
+}
+.a12{
+    grid-area: l3;
+    background-color: rgb(88, 88, 118);
+}
+
+
